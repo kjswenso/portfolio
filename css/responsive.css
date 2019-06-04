@@ -1,0 +1,78 @@
+@media screen and (min-width: 551px) {
+
+	.name, .title {
+		text-align: right;
+	}
+
+	.header_inner {
+		display: inline-flex;
+		width: 100%;
+		padding-bottom: 20px
+	}
+
+	.header_info {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: 0;
+	}
+
+	.intro_title {
+		text-align: left;
+	}
+
+	.profile {
+		display: flex;
+		justify-content: flex-start; 
+	}
+
+	.about_self {
+		margin: 2%;
+	}
+
+	.portfolio h3, 
+	p {
+		text-align: center;
+	}
+
+	.work_title {
+		text-align: left;
+	}
+
+	.ft_work {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.ft_proj {
+		width: 320px;
+		margin-left: 1px;
+	}
+
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 661px) {
+	.ft_work {
+		width: 320px;
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and (min-width: 701px) {
+	.about_self {
+		font-size: 1.2em;
+	}
+
+	.ft_work {
+		width: 650px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 751px) {
+	html, body {
+		width: 750px;
+		margin: 0 auto;
+	}
+}

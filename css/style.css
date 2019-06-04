@@ -1,0 +1,178 @@
+body {
+	color: #666;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;	
+	text-align: center;
+}
+
+.header_inner {
+	border-bottom: 1px solid;
+}
+
+.kjslogo {
+	max-width: 150px;
+	max-height: 150px;
+	padding-top: 2%;
+}
+
+.name {
+	font-size: 2.7em;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-bottom: 0px;
+}
+
+.title {
+	display: inline-flex;
+	color: #666;
+	margin: 4% 5% 0 0;
+}
+
+h1, 
+h2 {
+	color: #ff822e;
+	text-align: left;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.introduction {
+	width: 100%;
+}
+
+.portrait {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.about_self {
+	text-align: justify;
+	padding: 10px;
+}
+
+.portfolio {
+	width: 100%;
+}
+
+.ft_proj, .proj_list {
+	width: 210px;
+	height: 250px;
+	border: 1px solid;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.proj_name {
+	font-variant: small-caps;
+	font-size: 1.7em;
+}
+
+.port_thumb {
+	max-width: 100px
+	max-height: 175px;
+	border-bottom: 1px solid;
+}
+
+/*footer {
+	font-size: 0.8em;
+}*/
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #fa5b0f;
+}
+
+a:visited {
+	color: #333;
+}
+
+a:hover {
+	color: #999;
+}
+
+/* responsive */
+
+@media screen and (min-width: 551px) {
+
+	.name, .title, .social {
+		text-align: right;
+	}
+
+	.header_inner {
+		display: inline-flex;
+		width: 100%;
+		padding-bottom: 20px
+	}
+
+	.header_info {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: 0;
+	}
+
+	.intro_title {
+		text-align: left;
+	}
+
+	.profile {
+		display: flex;
+		justify-content: flex-start; 
+	}
+
+	.about_self {
+		margin: 2%;
+	}
+
+	.portfolio 
+	p {
+		text-align: center;
+	}
+
+	.work_title {
+		text-align: left;
+	}
+
+	.ft_work, .projs {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 661px) {
+	.ft_work, .projs {
+		width: 320px;
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and (min-width: 701px) {
+	.about_self {
+		font-size: 1.2em;
+	}
+
+	.ft_work, .projs {
+		width: 650px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 751px) {
+	html, body {
+		width: 750px;
+		margin: 0 auto;
+	}
+}
+
+
