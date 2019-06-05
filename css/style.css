@@ -101,6 +101,17 @@ a:hover {
 }
 
 /* responsive */
+@media screen and (max-width: 550px) {
+
+	.name, .title, .social {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.intro_title, .proj_title {
+		text-align: center;
+	}
+}
 
 @media screen and (min-width: 551px) {
 
